@@ -59,7 +59,7 @@ body {
 }
 
 #checkbox input[type='checkbox'] {
-  margin-left: 5%;
+  margin: 0 0 0 5%;
   width: 20px;
   height: 20px;
   float: left;
@@ -68,7 +68,7 @@ body {
 #checkbox span:first-of-type {
   font-size: .8em;
   color: rgba(0, 0, 0, .5);
-  margin-left: -90px;
+  margin-left: -190px;
 }
 
 #checkbox span:last-of-type {
@@ -79,22 +79,19 @@ body {
 }
 
 button {
+  font-size: 1em;
   width: 90%;
   height: 35px;
   background-color: #409FE4;
-  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-bottom: 35px;
   border: 1px solid rgba(193, 198, 206, .75);
   border-radius: 3px;
   box-shadow: 0 1px 10px 1px #C1C6CE;
-}
-
-button {
-  font-size: 1em;
-  margin-top: 10px;
-  margin-bottom: 45px;
   padding-top: 10px;
   padding-bottom: 30px;
   color: white;
+  margin: 0 5% 30px 5%; 
 }
 
 #forgot {
