@@ -16,15 +16,14 @@ body {
 }
 
 #menu img {
-  margin-top: 10%;
-  margin-bottom: 5%;
   width: 20%;
+  margin: 10% 0 5% 0;
 }
 
 #inside-menu {
   width: 60%;
-  margin: 0 auto 0 auto;
   background-color: #FCFCFE;
+  margin: 0 auto 0 auto;
   border: 1px solid rgba(193, 198, 206, .5);
   box-shadow: 0 5px 10px 2px #C1C6CE;
   border-radius: 5px;
@@ -32,43 +31,43 @@ body {
 
 #inside-menu p {
   font-weight: bold;
-  margin-bottom: 0px;
+  color: #121B21;
+  margin-bottom: 10px;
   padding-top: 30px;
   padding-bottom: 10px;
-  color: #121B21;
 }
 
  hr {
    width: 45%;
-   border: 0;
    height: 1px;
-   margin-bottom: 20px;
+   border: 0;
+   margin: 0 auto 20px auto;
    background: #121B21;
    opacity: .25;
  }
 
 #inside-menu input {
+  width: 85%;
+  height: 35px;
   font-size: 1em;
   color: #C1C6CE;
   margin: 0 auto 15px auto;
-  width: 85%;
   padding-left: 10px;
-  height: 35px;
   border: 1px solid rgba(193, 198, 206, .75);
   border-radius: 2px;
 }
 
 #checkbox input[type='checkbox'] {
-  margin: 0 0 0 5%;
   width: 20px;
   height: 20px;
+  margin: 0 0 0 5%;
   float: left;
 }
 
 #checkbox span:first-of-type {
   font-size: .8em;
   color: rgba(0, 0, 0, .5);
-  margin-left: -190px;
+  margin-left: -5em;
 }
 
 #checkbox span:last-of-type {
@@ -79,33 +78,32 @@ body {
 }
 
 button {
-  font-size: 1em;
   width: 90%;
   height: 35px;
+  font-size: 1em;
+  color: white;
   background-color: #409FE4;
-  margin-top: 25px;
-  margin-bottom: 35px;
+  padding: 10px 0 30px 0;
   border: 1px solid rgba(193, 198, 206, .75);
   border-radius: 3px;
   box-shadow: 0 1px 10px 1px #C1C6CE;
-  padding-top: 10px;
-  padding-bottom: 30px;
-  color: white;
-  margin: 0 5% 30px 5%; 
+  margin: 10px 5% 45px 5%;
 }
 
 #forgot {
   width: 60%;
   margin: 25px auto 0 auto;
+  padding: 10px 0 10px 0;
   border: 1px solid rgba(193, 198, 206, .75);
   border-radius: 5px;
-  padding: 10px 0 10px 0;
-}
-
-#forgot a {
   font-weight: bold;
   color: rgba(0, 0, 0, .5);
 }
+
+  #forgot a {
+    font-weight: bold;
+    color: rgba(0, 0, 0, .5);
+  }
 
 #forgot span {
   text-decoration: underline;
