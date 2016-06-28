@@ -2,23 +2,32 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel='stylesheet' type='text/css'  href='css/style.css'>
+    <script src='/javascripts/application.js'></script>
     <title>Stripe Challenge</title>
   </head>
   <body>
 
   <div id='menu'>
 
-    <img src='images/stripe_logo.png'>
+    <img src='images/stripe_logo.png' alt='Stripe Logo'>
 
     <div id='inside-menu'>
       <p>Welcome Back!</p>
+      <hr>
       <input value='Email'><br>
       <input value='Password'><br>
-      <input type='checkbox' value=''><a href='#'>Forgot Password?</a><br>
-      <a href='#'><button type='button'>Sign in to your account</button></a>
+      <div id='checkbox'>
+        <input type="checkbox" name="checkbox" value="value">
+        <span>Remenber me</span>
+        <span href='#'>Forgot Password?</span>
+      </div>
+      <button>Sign in to your account</button>
     </div>
 
-    <a href='#'>Don't have an account? Sign Up</a>
+    <div id='forgot'>
+      <a href='#'>Don't have an account? <span>Sign Up<span></a>
+    </div>
 
   </div>
 
